@@ -1,0 +1,59 @@
+.table {
+    margin: auto;
+    margin-top: 50px;
+    font-size: 25px;
+    border: solid 1px grey;
+    padding: 10px 10px 10px 10px;
+}
+.tableRow {
+    margin: 0;
+}
+.tableData {
+    border: 1px solid grey;
+    padding: 15px 15px 15px 15px;
+}
+.button {
+    color: black;
+    background-color: lightgray;
+    border-radius: 15px;
+    border: solid 1px;
+    text-decoration: none;
+    padding: 5px;
+}
+.button:hover {
+    background-color: black;
+    color:white;
+}
+.changeFirstName {
+    padding: 20px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+.firstNameLabel {
+    margin: auto;
+}
+.firstNameInput {
+    margin-top: 20px;
+    font-size: large;
+}
+.firstNameSubmit {
+    margin-top: 10px;
+}
+.firstNameSubmit:hover, .backButton:hover {
+    color: black;
+    background-color: white;
+    cursor:pointer;
+}
+.backButton {
+    text-decoration: none;
+}   
+.backButton, .firstNameSubmit {
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
+}

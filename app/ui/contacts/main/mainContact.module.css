@@ -1,0 +1,37 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 20px; */
+    border-bottom: 1px solid gray;
+}
+.menuButton {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.menuButton:hover {
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+.active {
+    background-color: white;
+    color: black;
+}
+.viewContact {
+    margin: 20px 0 0 0;
+    font-size: 30px;
+    text-align: left;
+}
+.tableRows {
+    padding: 15px 5px 15px 5px;
+}
+.editSchedule {
+    margin: 20px;
+    font-size: larger;
+    width: 50%;
+}
+.scheduleLabel {
+    margin: 20px 0 20px 0;
+}

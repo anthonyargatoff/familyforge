@@ -1,0 +1,71 @@
+.pageContainer {
+    display: flex;
+    height: calc(100% - 51px);
+}
+.sideBar {
+    min-width: 400px;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    border-right: solid gray 1px;
+}
+.searchBar{
+    margin: 10px 0 10px 10px;
+}
+.buttonContainer {
+    height: calc(100vh - 96px);
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 0;
+    overflow-y: auto;
+}
+.sideBarCard {
+    font-size: 25px;
+    padding: 10px 5px 10px 10px;
+}
+.even {
+    background-color: rgb(34, 34, 34);
+}
+.odd {
+    background-color: black;
+}
+.sideBarCard:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.sideBarCard:first-child {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.sideBarText {
+    margin: 0 0 0 10px;
+    max-width: 400px;
+}
+.button {
+    background-color: black;
+    color: white;
+    border: solid white 1px;
+    margin: 0 2px 0 2px;
+    padding: 3px;
+    border-radius: 8px;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.form {
+    margin: 0 5px 0 5px;
+    min-width: 80px;
+    width: 150px;
+}
+.mainContent {
+    width: 100%;
+ }
+.viewContacts{
+    height: calc(100vh - 51px - 62px);
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}

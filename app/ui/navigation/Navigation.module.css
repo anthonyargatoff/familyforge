@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+.navButton {
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    margin: 0 5px 0 5px;
+    color: white;
+    line-height: 40px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.active {
+    background-color: white;    
+    color: black;
+}
+.active:hover {
+    background-color: lightgrey;
+}
+
+.navButton:not(.active):hover {
+    background-color: lightgrey;
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    text-decoration: none;
+}
